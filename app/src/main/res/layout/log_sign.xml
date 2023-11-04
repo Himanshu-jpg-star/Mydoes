@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/logsinpage"
+    tools:context=".log_sign"
+    >
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        />
+    <Button
+        android:id="@+id/sign"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/White"
+        android:text="Sign up"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        />
+
+</LinearLayout>

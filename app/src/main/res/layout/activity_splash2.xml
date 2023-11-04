@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity2"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="86dp"
+        android:text="MyDoes"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+         />
+
+
+</LinearLayout>
